@@ -34,6 +34,16 @@ def preprocessing_images(path):
     data_transpose = data.transpose(0, 3, 1, 2)
     return data_transpose
 
+# Initialize the webcam on device
+# cam = VideoCapture(0)  # 0 -> index of camera
+# s, img = cam.read()
+# if s:    # frame captured without any errors
+#     namedWindow("cam-test",WINDOW_AUTOSIZE)
+#     imshow("cam-test",img)
+#     waitKey(0)
+#     destroyWindow("cam-test")
+#     imwrite('/home/nervster/PycharmProjects/Capstone2_Clothing_Classification/data/filename.jpg',img) #save image
+#     cam.release()
 
 # Returning Predicted Labels on Images and the Label from File Path
 for fpath in fpaths:
