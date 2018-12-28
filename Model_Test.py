@@ -18,7 +18,7 @@ for image_path in tqdm.tqdm(list(glob.glob(
     fpaths.append(image_path)
 
 # Load Model into Variable
-model = load_model('model_first_attempt.h5')
+model = load_model('image_model.h5')
 
 
 # Function to create process image file for the model
