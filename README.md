@@ -24,6 +24,17 @@ What things you need to install the software and how to install them
 
 Simple installation process. I also used opencv2 to use my laptop's webcam in addition to images stored on computer to test model. 
 
+### Approach
+
+1. Images Collection: Only images of cloths (without any human inside the cloths). Important because my model is supposed to be used post dryer step.
+2. Model: Transfer learning on VGG16 model and imagenet weights. Then I applied my own layers to consolidate model to detect my labels.
+3. Data Augmentation: Based on Step 5 of referenced url, I needed this step because the application would deal with unfolded cloths. Therefore, I needed my model to detect the cloths in a variety of formats. Source: https://medium.com/nybles/create-your-first-image-recognition-classifier-using-cnn-keras-and-tensorflow-backend-6eaab98d14dd
+4. Application: Loaded the model to test on separate images.
+
+### Results
+
+![](MiscFiles/Capture.PNG)
+
 ## Next Steps
 
 1. Continue adding to images
