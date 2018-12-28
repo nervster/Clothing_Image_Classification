@@ -145,4 +145,4 @@ print(score)
 model.summary()
 
 # Saved Model into file
-model.save('model_first_attempt.h5')
+model.save('image_model.h5')
