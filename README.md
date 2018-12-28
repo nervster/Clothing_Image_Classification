@@ -1,9 +1,27 @@
 # Clothing_Image_Classification
 
-The purpose of this repository is to create a model to start identifying clothing items. The hope is to use this model into applications like automated folding machines and/or clothing inventory generator. Below details the files within this repository and additional information:
+This repository is to create a model to start identifying clothing items. My hope is that this model can be used to create an "economically feasible" (aka cheaper) automated folding machine. Current automated folding machines are tedious and expensive. I hate folding clothes but I not willing to cough up $700+ Other applications can be a clothing inventory like at Goodwill or your closet.
 
-1. Image_Classification_Model: Script where I downloaded, parsed and trained model using VGG16 image net and self created layers
-2. Model_Test: Script to test and output result of model's test run
-3. Cloth_Images: Images of Clothes
-4. Capstone 2 Milestone Report: Report detailing steps and results of project
-5. Capstone 2 Presentation: Presentation on analysis and results of model
+## Getting Started
+
+1. Image_Classification_Model.py: Main model which will output a H5 file (image_model.h5)
+2. Model_Test.py: Applying the model to a set of test clothing pictures and output a pivot to understand performance of model
+3. Cloth Images.zip: About 550 Images separated by clothing type (folder names will be used for labelling)
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+1. Python 3.6
+2. Keras 2.2.4
+3. OpenCV 3.3.1
+4. Windows 10 (can be applied on Linux but Matplotlib was not working for me on Linux)
+
+### Installing
+
+1. Clone Repository and unzip clothing imaging files
+2. Rename Clothing Image Source within both python scripts to match your image paths
+
+## License
+
+This project is licensed by nobody :) 
