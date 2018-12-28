@@ -22,6 +22,15 @@ What things you need to install the software and how to install them
 1. Clone Repository and unzip clothing imaging files
 2. Rename Clothing Image Source within both python scripts to match your image paths
 
+Simple installation process. I also used opencv2 to use my laptop's webcam in addition to images stored on computer to test model. 
+
+## Next Steps
+
+1. Continue adding to images
+2. Expand labels to recognize fabrics and additional types of clothing
+3. Research on misclassified images to increase accuracy
+4. Implement using YOLO so I can create real time image classification
+
 ## License
 
 This project is licensed by nobody :) 
